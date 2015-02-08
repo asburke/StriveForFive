@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:background="@color/white">
+    <LinearLayout
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        android:orientation="horizontal"
+        android:padding="8dp"
+        android:background="#CCCCCC">
+        <Button
+            android:id="@+id/date_back_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Back" />
+        <Button
+            android:text="TODAY"
+            android:textAppearance="?android:attr/textAppearanceSmall"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:gravity="center"
+            android:layout_height="match_parent"
+            android:id="@+id/date_picker_btn"
+            android:layout_margin="16dp"
+            android:textColor="@color/vintageSeaBlue"
+            android:background="?android:attr/selectableItemBackground" />
+        <Button
+            android:id="@+id/date_forward_btn"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Forward" />
+    </LinearLayout>
+    <FrameLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:id="@+id/frame_container" />
+</LinearLayout>
