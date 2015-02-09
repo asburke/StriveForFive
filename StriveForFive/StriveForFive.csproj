@@ -79,6 +79,7 @@
     <AndroidResource Include="Resources\values\Colors.xml" />
     <AndroidResource Include="Resources\values\Styles.xml" />
     <AndroidResource Include="Resources\layout\GoalList.axml" />
+    <AndroidResource Include="Resources\drawable-v21\ripple_bg.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath)\Novell\Novell.MonoDroid.CSharp.targets" />
   <ItemGroup>
@@ -87,6 +88,8 @@
     <Folder Include="Framgents\" />
     <Folder Include="Resources\" />
     <Folder Include="Properties\" />
+    <Folder Include="Resources\drawable\" />
+    <Folder Include="Resources\drawable-v21\" />
   </ItemGroup>
   <ItemGroup>
     <XamarinComponentReference Include="json.net">

@@ -82,11 +82,19 @@ namespace StriveForFive
 			LayoutInflater inflater = (LayoutInflater) context.GetSystemService (Context.LayoutInflaterService);
 
 			convertView = inflater.Inflate (Resource.Layout.GoalListItem, parent, false);
+
+			convertView.Click += delegate {
+
+			};
+
 			CheckBox checkbox = convertView.FindViewById<CheckBox> (Resource.Id.title);
 			checkbox.Text = item; 
 
 			return convertView;
 		}
+
+
 	}
 }
+
 

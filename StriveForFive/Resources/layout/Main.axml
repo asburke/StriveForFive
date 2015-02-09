@@ -9,7 +9,7 @@
         android:layout_width="match_parent"
         android:orientation="horizontal"
         android:padding="8dp"
-        android:background="#CCCCCC">
+        android:background="#f1f1f1">
         <Button
             android:id="@+id/date_back_btn"
             android:layout_width="wrap_content"
